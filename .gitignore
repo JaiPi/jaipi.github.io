@@ -1,0 +1,46 @@
+# Dependency directories
+/_site/
+/.sass-cache/
+/.jekyll-cache/
+/.jekyll-metadata/
+node_modules/
+vendor/
+
+# Logs and databases
+*.log
+*.sqlite3
+*.env
+*.lock
+*.gem
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Editor and OS-specific files
+*.swp
+*.swo
+.idea/
+.vscode/
+*.iml
+
+# Bundler
+.bundle/
+/Gemfile.lock
+
+# Coverage and test results
+coverage/
+spec/reports/
+
+# Temporary files
+*.tmp
+*.bak
+*.pid
+
+# Generated files
+.sass-cache/
+.jekyll-cache/
+/_site/
+_site/*
+
+# Exclude any files not required for GitHub Pages
