@@ -1,9 +1,15 @@
-title: My GitHub Pages Site
+title: Jaime Pignatelli
 description: A simple site hosted on GitHub Pages
 author: Jaime Pignatelli
 email: no-reply@example.com
 baseurl: "" # Leave empty for GitHub Pages
 url: "https://jaipi.github.io" # Replace with your GitHub Pages URL
-theme: jekyll-theme-minimal # GitHub Pages-supported theme
+# theme: jekyll-theme-minimal # GitHub Pages-supported theme
 sass:
   style: compressed
+# remote_theme: mmistakes/so-simple-theme
+remote_theme: hydecorp/hydejack
+# theme: jekyll-theme-so-simple
+
+plugins:
+  - jekyll-remote-theme
