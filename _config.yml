@@ -1,3 +1,9 @@
-# _config.yml
-
-title: "Jekyll Actions Demo"
+title: My GitHub Pages Site
+description: A simple site hosted on GitHub Pages
+author: Jaime Pignatelli
+email: no-reply@example.com
+baseurl: "" # Leave empty for GitHub Pages
+url: "https://jaipi.github.io" # Replace with your GitHub Pages URL
+theme: minima # GitHub Pages-supported theme
+sass:
+  style: compressed
