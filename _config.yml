@@ -4,6 +4,6 @@ author: Jaime Pignatelli
 email: no-reply@example.com
 baseurl: "" # Leave empty for GitHub Pages
 url: "https://jaipi.github.io" # Replace with your GitHub Pages URL
-theme: minima # GitHub Pages-supported theme
+theme: jekyll-theme-minimal # GitHub Pages-supported theme
 sass:
   style: compressed
