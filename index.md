@@ -28,3 +28,5 @@ If you’d like to connect or have any questions, feel free to reach out:
 - GitHub: [jaipi](https://github.com/jaipi)
 
 Thank you for stopping by!
+
+{% include social.md %}

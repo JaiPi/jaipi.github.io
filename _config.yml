@@ -1,15 +1,22 @@
 title: Jaime Pignatelli
-description: A simple site hosted on GitHub Pages
+description: My personal website and blog about technology, software development, and other topics.
 author: Jaime Pignatelli
 email: no-reply@example.com
 baseurl: "" # Leave empty for GitHub Pages
-url: "https://jaipi.github.io" # Replace with your GitHub Pages URL
-# theme: jekyll-theme-minimal # GitHub Pages-supported theme
+url: https://jaipi.github.io
 sass:
   style: compressed
-# remote_theme: mmistakes/so-simple-theme
 remote_theme: hydecorp/hydejack
-# theme: jekyll-theme-so-simple
 
 plugins:
-  - jekyll-remote-theme
+  - jekyll-remote-theme # Enables the use of remote themes
+  - jekyll-feed # Generates an Atom feed
+  - jekyll-seo-tag # Adds SEO meta tags
+  - jekyll-sitemap # Generates a sitemap for search engines
+  - jekyll-paginate # Enables pagination (optional, for blogs)
+social:
+  github: https://github.com/JaiPi
+  linkedin: https://www.linkedin.com/in/jaimepignatelli/
+
+markdown: kramdown
+highlighter: rouge
