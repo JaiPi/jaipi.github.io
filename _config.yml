@@ -31,14 +31,14 @@ title: Jaime Pignatelli
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
-description:           >
+description:           > #TODO
   My personal website and blog about technology, software development, and other topics.
 
 # A shorter description for the sidebar.
-tagline:               Change `tagline` in `_config.yml`
+tagline:               Change `tagline` in `_config.yml` #TODO
 
 # A list of keywords for your blog
-keywords:              []
+keywords: ["architect", "cloud", "technology"] #TODO
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
