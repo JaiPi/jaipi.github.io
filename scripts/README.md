@@ -5,7 +5,7 @@ description: >
   Here you should be able to find everything you need to know to accomplish the most common tasks when blogging with Hydejack.
 hide_description: true
 sitemap: false
-permalink: /docs/
+permalink: /scripts/
 ---
 
 Here you should be able to find everything you need to know to accomplish the most common tasks when blogging with Hydejack.
@@ -29,11 +29,11 @@ While this manual tries to be beginner-friendly, as a user of Jekyll it is assum
 * [Advanced]{:.heading.flip-title} --- Guides for more advanced tasks.
 {:.related-posts.faded}
 
-## Other
+<!-- ## Other
 * [LICENSE]{:.heading.flip-title} --- The license of this project.
 * [NOTICE]{:.heading.flip-title} --- Parts of this program are provided under separate licenses.
 * [CHANGELOG]{:.heading.flip-title} --- Version history of Hydejack.
-{:.related-posts.faded}
+{:.related-posts.faded} -->
 
 [install]: install.md
 [upgrade]: upgrade.md
