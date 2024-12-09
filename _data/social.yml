@@ -265,8 +265,8 @@ credly:
   name: Credly
   icon: icon-trophy
   prepend: https://www.credly.com/users/
-resume:
-  name: Resume
+cv:
+  name: Curriculum Vitae
   # icon: icon-file-empty
   icon: icon-file-pdf
   prepend: "https://jaipi.github.io/"

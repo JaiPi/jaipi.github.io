@@ -10,10 +10,13 @@ $button-text-color: #ffffff;     // Text color
 $button-padding: 10px 20px;      // Padding
 $button-border-radius: 5px;      // Rounded corners
 $button-font-size: 16px;         // Font size
+$icon-spacing: 8px;              // Space between icon and text
 
 // Reusable button style
 .btn {
-  display: inline-block;
+  display: inline-flex;          // Use flexbox for icon + text alignment
+  align-items: center;           // Vertically align icon and text
+  gap: $icon-spacing;            // Space between icon and text
   padding: $button-padding;
   background-color: $button-bg-color;
   color: $button-text-color;
@@ -32,4 +35,11 @@ $button-font-size: 16px;         // Font size
   &:active {
     background-color: darken($button-bg-color, 10%);
   }
+
+  // Optional: Style icons specifically inside buttons
+  .icon-file-pdf {
+    font-size: 1.2em;             // Scale the icon size
+    color: inherit;              // Match the button text color
+  }
 }
+
