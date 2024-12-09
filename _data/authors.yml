@@ -25,9 +25,9 @@ jaipi:
   # Rearrange to change the order in which they appear
   # You can also provide an absolute URL (starting with https://) instead of usernames
   social:
+    github:          JaiPi
     linkedin:        jaimepignatelli
     credly:          jai-pi.629b2fcf
-    github:          JaiPi
+    resume:          assets/docs/cv-jaime-pignatelli.pdf
     email:           jaime.pignatelli@tutanota.com
-    rss:             https://<url>/feed.xml
-    download:        assets/docs/cv-jaime-pignatelli.pdf
+    rss:             https://jaipi.github.io/feed.xml
