@@ -8,9 +8,9 @@ jaipi:
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    I am driven by the challenge of designing impactfulsolutions, and thrive in environments where I can bridge technical expertise with a strategic outlook. 
+    I am driven by the challenge of designing impactful solutions, and thrive in environments where I can bridge technical expertise with a strategic outlook. 
     
-    With a background in cloud infrastructure, I’m now focused on deepening my skills in architectural design and cloud management, seeking to create efficient, forwardthinking solutions that meet evolving needs.
+    With a background in cloud infrastructure, I'm now focused on deepening my skills in architectural design and cloud management, seeking to create efficient, forward thinking solutions that meet evolving needs.
 
   # This photo will be used in the about section
   picture:
@@ -25,8 +25,9 @@ jaipi:
   # Rearrange to change the order in which they appear
   # You can also provide an absolute URL (starting with https://) instead of usernames
   social:
-    email:           jaime.pignatelli@tutanota.com
-    github:          JaiPi
     linkedin:        jaimepignatelli
+    credly:          jai-pi.629b2fcf
+    github:          JaiPi
+    email:           jaime.pignatelli@tutanota.com
     rss:             https://<url>/feed.xml
     download:        assets/docs/cv-jaime-pignatelli.pdf

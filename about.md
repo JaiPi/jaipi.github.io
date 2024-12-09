@@ -14,6 +14,10 @@ cover: true
 
 <!--author-->
 
+
+{% include button.html url="/assets/docs/cv-jaime-pignatelli.pdf" target="_blank" label="Open CV" %}
+
+
 ## Hydejack
 
 A boutique Jekyll theme for hackers, nerds, and academics.  

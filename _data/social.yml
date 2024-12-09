@@ -214,6 +214,7 @@ keybase:
 download:
   name: Download
   icon: icon-box-add
+  prepend: "https://jaipi.github.io/"
 signal:
   name: Signal
   icon: icon-signal
@@ -261,3 +262,7 @@ discord:
 mastodon:
   name: Mastodon
   icon: icon-mastodon
+credly:
+  name: Credly
+  icon: icon-mastodon
+  prepend: https://www.credly.com/users/

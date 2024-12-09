@@ -2,3 +2,34 @@
 // .sidebar a {
 //   text-shadow: rgba(0, 0, 0, 0.25) 0.1rem 0.1rem 0.15rem;
 // }
+
+// Define variables for customization
+$button-bg-color: #007bff;       // Default background color
+$button-hover-color: #0056b3;    // Hover background color
+$button-text-color: #ffffff;     // Text color
+$button-padding: 10px 20px;      // Padding
+$button-border-radius: 5px;      // Rounded corners
+$button-font-size: 16px;         // Font size
+
+// Reusable button style
+.btn {
+  display: inline-block;
+  padding: $button-padding;
+  background-color: $button-bg-color;
+  color: $button-text-color;
+  text-decoration: none;
+  border: none;
+  border-radius: $button-border-radius;
+  font-size: $button-font-size;
+  text-align: center;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $button-hover-color;
+    text-decoration: none;
+  }
+
+  &:active {
+    background-color: darken($button-bg-color, 10%);
+  }
+}
