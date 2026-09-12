@@ -10,13 +10,8 @@ source "https://rubygems.org"
 # Happy Jekylling!
 gem "jekyll", "~> 4.3"
 
-gem "jekyll-theme-hydejack", "~> 9.1"
-
-# If you are part of the ["Customers" team](https://github.com/orgs/hydecorp/teams/pro-customers), 
-# you can fetch the theme from a private repository. 
-# See [Deploy in the Hydejack Docs](https://hydejack.com/docs/deploy) for details.
-
-# gem "jekyll-theme-hydejack", git: "https://github.com/hydecorp/hydejack-pro", tag: "pro/v9.2.0"
+# Hydejack 9.2.1 is vendored directly into _layouts/_includes/_sass/assets (see _config.yml),
+# so the theme is no longer pulled in as a gem or remote theme.
 
 # IMPORTANT: The followign gem is used to compile math formulas to 
 # KaTeX during site building.
